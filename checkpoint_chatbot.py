@@ -1,6 +1,6 @@
 import nltk
 nltk.download('punkt')
-# nltk.download('averaged_perceptron_tagger')
+nltk.download('homme_oreille')
 import streamlit as st
 from nltk.tokenize import word_tokenize, sent_tokenize
 from nltk.corpus import stopwords
