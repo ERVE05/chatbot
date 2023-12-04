@@ -1,4 +1,4 @@
-
+nltk
 pandas
 streamlit
 numpy
