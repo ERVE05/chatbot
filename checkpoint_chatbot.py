@@ -8,8 +8,8 @@ from nltk.stem import WordNetLemmatizer
 import string
 
 # Chargez le fichier texte et prétraitez les données
-with open('homme_oreille.txt', 'r', encoding='utf-8') as fichier:
-    data = fichier.read().replace('\n', ' ')
+with open('homme_oreille.txt', 'r', encoding='utf-8') as f:
+    data = f.read().replace('\n', ' ')
 # Tokeniser le texte en phrases
 #sentences = sent_tokenize(data)
 # Définir une fonction pour prétraiter chaque phrase
