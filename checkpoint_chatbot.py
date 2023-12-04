@@ -11,7 +11,7 @@ import string
 with open('homme_oreille.txt', 'r', encoding='utf-8') as fichier:
     data = fichier.read().replace('\n', ' ')
 # Tokeniser le texte en phrases
-sentences = sent_tokenize(data)
+#sentences = sent_tokenize(data)
 # Définir une fonction pour prétraiter chaque phrase
 def preprocess(sentence):
     # Tokeniser la phrase en mots
