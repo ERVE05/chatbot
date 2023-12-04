@@ -1,9 +1,5 @@
 nltk
 streamlit 
-string
-nltk
-streamlit 
-string
 jupyter 
 lxml
 MarkupSafe==1.1.1
