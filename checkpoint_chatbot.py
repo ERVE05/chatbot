@@ -11,7 +11,7 @@ import string
 with open('homme_oreille.txt', 'r', encoding='utf-8') as f:
     data = f.read().replace('\n', ' ')
 # Tokeniser le texte en phrases
-#sentences = sent_tokenize(data)
+sentences = sent_tokenize(data)
 # Définir une fonction pour prétraiter chaque phrase
 def preprocess(sentence):
     # Tokeniser la phrase en mots
@@ -24,7 +24,7 @@ def preprocess(sentence):
     return words
 
 # Prétraitez chaque phrase du texte
-#corpus = [preprocess(sentence) for sentence in sentences]
+corpus = [preprocess(sentence) for sentence in sentences]
 
 # Définir une fonction pour trouver la phrase la plus pertinente compte tenu d'une requête
 def get_most_relevant_sentence(query):
